@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mohamed Ehab Saber — Full-Stack Web Developer building responsive front-end experiences, custom WordPress solutions, and backend-integrated web applications.">
+  <meta name="theme-color" content="#07111c">
+  <title>Mohamed Ehab | Full-Stack Web Developer</title>
+  <link rel="preload" href="assets/profile-hero-circle.webp" as="image" type="image/webp">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content" data-i18n="skipLink">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="container nav-shell">
+      <a class="brand" href="#home" aria-label="Mohamed Ehab home">
+        <span class="brand-mark" aria-hidden="true">ME</span>
+        <span class="brand-copy">
+          <strong>Mohamed Ehab</strong>
+          <small data-i18n="brandRole">Web Developer</small>
+        </span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#about" data-i18n="navAbout">About</a>
+        <a href="#work" data-i18n="navWork">Work</a>
+        <a href="#skills" data-i18n="navSkills">Skills</a>
+        <a href="#experience" data-i18n="navExperience">Experience</a>
+        <a href="#contact" data-i18n="navContact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="lang-toggle" id="langToggle" type="button" aria-label="Switch to Arabic">
+          <span class="lang-current">EN</span>
+          <span class="lang-divider" aria-hidden="true">/</span>
+          <span class="lang-next">AR</span>
+        </button>
+        <button class="menu-toggle" id="menuToggle" type="button" aria-controls="mobileMenu" aria-expanded="false" aria-label="Open menu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile navigation" hidden>
+      <a href="#about" data-i18n="navAbout">About</a>
+      <a href="#work" data-i18n="navWork">Work</a>
+      <a href="#skills" data-i18n="navSkills">Skills</a>
+      <a href="#experience" data-i18n="navExperience">Experience</a>
+      <a href="#contact" data-i18n="navContact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero section-pad" id="home">
+      <div class="hero-grid-bg" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span><span data-i18n="heroEyebrow">Front-end craft. WordPress depth. Backend thinking.</span></p>
+          <h1>
+            <span data-i18n="heroHello">I build websites that</span>
+            <span class="accent-line" data-i18n="heroAccent">feel polished and work properly.</span>
+          </h1>
+          <p class="hero-lead" data-i18n="heroLead">I'm Mohamed Ehab Saber, a full-stack web developer focused on responsive interfaces, custom WordPress solutions, REST API integrations, and maintainable web experiences.</p>
+
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#work">
+              <span data-i18n="viewProjects">View projects</span>
+              <span aria-hidden="true">↗</span>
+            </a>
+            <a class="btn btn-ghost" href="mailto:mohammedehab093@gmail.com" data-i18n="contactMe">Contact me</a>
+          </div>
+
+          <div class="hero-links" aria-label="Social links">
+            <a href="https://github.com/Mohamed-Ehab093" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+            <a href="https://linkedin.com/in/mohamed-ehab-015a8531b" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+
+        <div class="hero-portrait-wrap reveal" data-delay="120">
+          <div class="portrait-frame portrait-circle-shell">
+            <div class="portrait-orbit" aria-hidden="true"></div>
+            <div class="portrait-badge badge-top" aria-hidden="true">HTML / CSS / JS</div>
+            <div class="portrait-badge badge-bottom" aria-hidden="true">WordPress / REST</div>
+            <div class="portrait-image-shell">
+              <img src="assets/profile-hero-circle.webp" alt="Portrait of Mohamed Ehab at night by the waterfront" width="900" height="900">
+            </div>
+          </div>
+          <div class="portrait-caption-card">
+            <div>
+              <small data-i18n="portraitLabel">Current focus</small>
+              <strong data-i18n="portraitFocus">Production-ready web experiences</strong>
+            </div>
+            <span class="portrait-symbol" aria-hidden="true">&lt;/&gt;</span>
+          </div>
+          <div class="floating-tag tag-one" aria-hidden="true">Responsive UI</div>
+          <div class="floating-tag tag-two" aria-hidden="true">WordPress REST</div>
+        </div>
+      </div>
+
+      <div class="container proof-strip reveal" data-delay="180">
+        <div class="proof-item">
+          <span class="proof-label" data-i18n="proof01Label">Build</span>
+          <strong data-i18n="proof01Value">Responsive front-end systems</strong>
+        </div>
+        <div class="proof-item">
+          <span class="proof-label" data-i18n="proof02Label">Connect</span>
+          <strong data-i18n="proof02Value">WordPress, REST APIs & data</strong>
+        </div>
+        <div class="proof-item">
+          <span class="proof-label" data-i18n="proof03Label">Improve</span>
+          <strong data-i18n="proof03Value">UX, performance & maintainability</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad about-section" id="about">
+      <div class="container split-heading reveal">
+        <div>
+          <p class="section-kicker" data-i18n="aboutKicker">About</p>
+          <h2 data-i18n="aboutTitle">From code exercises to real client systems.</h2>
+        </div>
+        <div class="section-intro">
+          <p data-i18n="aboutP1">My earlier work started with C#, ASP.NET, MySQL, JavaScript, and programming competitions. Since then, my practical work has expanded into client-facing WordPress implementations, responsive front-end fixes, REST integrations, access-control workflows, and website redevelopment.</p>
+          <p data-i18n="aboutP2">I care about the part users see and the system underneath it. That means clean interfaces, sensible responsive behavior, and technical decisions that are easier to maintain after launch.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad work-section" id="work">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-kicker" data-i18n="workKicker">Selected work</p>
+            <h2 data-i18n="workTitle">Projects where interface and implementation meet.</h2>
+          </div>
+          <p data-i18n="workIntro">A selection of client, WordPress, and application work. The first featured projects below include real portfolio screenshots from work I handled, alongside concise notes about my role.</p>
+        </div>
+
+        <article class="project-card reveal">
+          <div class="project-visual project-shot-card" aria-hidden="true">
+            <div class="browser-bar"><i></i><i></i><i></i><span>albayan / homepage</span></div>
+            <img class="project-shot" src="assets/project-bayan.webp" alt="Screenshot from the Al-Bayan website project" width="1280" height="596">
+            <div class="shot-badge">Bilingual · RTL / LTR</div>
+          </div>
+          <div class="project-copy">
+            <div class="project-meta">
+              <span data-i18n="projectTypeBayan">Front-end / WordPress</span>
+              <span>2026</span>
+            </div>
+            <h3 data-i18n="bayanTitle">Al-Bayan Website</h3>
+            <p data-i18n="bayanDesc">Front-end and WordPress implementation work focused on bilingual behavior, correct language direction, responsive sections, and targeted UI fixes while preserving the site's established visual identity.</p>
+            <ul class="project-points">
+              <li data-i18n="bayanP1">Arabic / English layout behavior and lang/dir handling</li>
+              <li data-i18n="bayanP2">Responsive hero, cards, counters, and WhatsApp UI corrections</li>
+              <li data-i18n="bayanP3">Implementation refinement without unnecessary redesign</li>
+            </ul>
+            <div class="tech-list"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>WordPress</span><span>RTL</span></div>
+          </div>
+        </article>
+
+        <article class="project-card project-card-reverse reveal">
+          <div class="project-visual project-shot-card" aria-hidden="true">
+            <div class="browser-bar"><i></i><i></i><i></i><span>alfa lifts / landing</span></div>
+            <img class="project-shot" src="assets/project-alfa.webp" alt="Screenshot from the ALFA Lifts website project" width="1280" height="730">
+            <div class="shot-badge">Corporate site · Responsive UX</div>
+          </div>
+          <div class="project-copy">
+            <div class="project-meta">
+              <span data-i18n="projectTypeAlfa">Website redevelopment / UX</span>
+              <span>2026</span>
+            </div>
+            <h3 data-i18n="alfaTitle">ALFA Lifts</h3>
+            <p data-i18n="alfaDesc">Website redevelopment and front-end UX work for an elevator company, organizing service and product journeys around clearer navigation, responsive presentation, branch information, and quote-request intent.</p>
+            <ul class="project-points">
+              <li data-i18n="alfaP1">Service and product information architecture</li>
+              <li data-i18n="alfaP2">Responsive presentation for desktop and mobile</li>
+              <li data-i18n="alfaP3">UX direction for branches and quotation requests</li>
+            </ul>
+            <div class="tech-list"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>UX</span><span>Responsive</span></div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-visual project-shot-card" aria-hidden="true">
+            <div class="browser-bar"><i></i><i></i><i></i><span>azh cases / dashboard</span></div>
+            <img class="project-shot" src="assets/project-azh.webp" alt="Screenshot from the AZH Cases Portal project" width="1280" height="618">
+            <div class="shot-badge">Dashboard · Roles & Permissions</div>
+          </div>
+          <div class="project-copy">
+            <div class="project-meta">
+              <span data-i18n="projectTypeAzh">WordPress application</span>
+              <span>2026</span>
+            </div>
+            <h3 data-i18n="azhTitle">AZH Cases Portal</h3>
+            <p data-i18n="azhDesc">A custom WordPress application concept and implementation spanning interface workflows, REST endpoints, database-backed case management, authentication, and role-based access for legal operations.</p>
+            <ul class="project-points">
+              <li data-i18n="azhP1">Case, client, document, notification, and messaging workflows</li>
+              <li data-i18n="azhP2">Authentication plus role and permission logic</li>
+              <li data-i18n="azhP3">Frontend-to-backend integration through WordPress and REST</li>
+            </ul>
+            <div class="tech-list"><span>WordPress</span><span>PHP</span><span>REST API</span><span>MySQL</span><span>JavaScript</span></div>
+          </div>
+        </article>
+
+        <article class="project-card project-card-reverse reveal">
+          <div class="project-visual visual-connector" aria-hidden="true">
+            <div class="connector-core">WP</div>
+            <div class="connector-node n1">REST</div>
+            <div class="connector-node n2">MCP</div>
+            <div class="connector-node n3">DATA</div>
+            <div class="connector-line l1"></div>
+            <div class="connector-line l2"></div>
+            <div class="connector-line l3"></div>
+            <div class="connector-caption">Saqqr WordPress Connector</div>
+          </div>
+          <div class="project-copy">
+            <div class="project-meta">
+              <span data-i18n="projectTypeConnector">WordPress integration</span>
+              <span>2026</span>
+            </div>
+            <h3 data-i18n="connectorTitle">Saqqr WordPress MCP Connector</h3>
+            <p data-i18n="connectorDesc">A custom WordPress connector project designed around REST API access and a cleaner integration path for managing WordPress operations programmatically in a staging-first workflow.</p>
+            <ul class="project-points">
+              <li data-i18n="connectorP1">REST API connection and WordPress integration planning</li>
+              <li data-i18n="connectorP2">Staging-first testing before production deployment</li>
+              <li data-i18n="connectorP3">Structured for future management and automation workflows</li>
+            </ul>
+            <div class="tech-list"><span>WordPress</span><span>REST API</span><span>PHP</span><span>Integration</span></div>
+          </div>
+        </article>
+
+        <div class="project-grid-small">
+          <article class="mini-project reveal">
+            <div class="mini-visual dice-visual" aria-hidden="true"><span>3</span><span>5</span><b>= 8</b></div>
+            <div class="project-meta"><span data-i18n="projectTypeMini">JavaScript experiments</span></div>
+            <h3 data-i18n="jsTitle">JavaScript UI Lab</h3>
+            <p data-i18n="jsDesc">A collection of focused front-end exercises including counters, random-number/dice interfaces, text tools, and interactive DOM tasks.</p>
+            <div class="tech-list"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>DOM</span></div>
+          </article>
+
+          <article class="mini-project reveal" data-delay="100">
+            <div class="mini-visual book-visual" aria-hidden="true"><i></i><i></i><i></i><span>ASP.NET + MySQL</span></div>
+            <div class="project-meta"><span data-i18n="projectTypeAcademic">Earlier application project</span></div>
+            <h3 data-i18n="bookTitle">Book Reading Website</h3>
+            <p data-i18n="bookDesc">An earlier web application project focused on backend development, login functionality, and database design for managing and reading books.</p>
+            <div class="tech-list"><span>C#</span><span>ASP.NET</span><span>MySQL</span><span>Authentication</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad skills-section" id="skills">
+      <div class="container">
+        <div class="split-heading reveal">
+          <div>
+            <p class="section-kicker" data-i18n="skillsKicker">Capabilities</p>
+            <h2 data-i18n="skillsTitle">A practical stack, grouped by what it solves.</h2>
+          </div>
+          <p class="section-intro single" data-i18n="skillsIntro">No arbitrary skill bars. These are technologies and capabilities supported by my academic background and practical project work.</p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <span class="skill-icon" aria-hidden="true">01</span>
+            <h3 data-i18n="frontendTitle">Frontend</h3>
+            <p data-i18n="frontendDesc">Responsive interfaces, bilingual layouts, DOM interactions, and production-focused UI refinement.</p>
+            <div class="skill-tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Responsive Design</span><span>RTL / LTR</span></div>
+          </article>
+          <article class="skill-card reveal" data-delay="80">
+            <span class="skill-icon" aria-hidden="true">02</span>
+            <h3 data-i18n="wordpressTitle">WordPress & Integration</h3>
+            <p data-i18n="wordpressDesc">Custom workflows, REST API connections, role-aware interfaces, and website implementation inside WordPress.</p>
+            <div class="skill-tags"><span>WordPress</span><span>PHP</span><span>REST API</span><span>Custom Solutions</span></div>
+          </article>
+          <article class="skill-card reveal" data-delay="120">
+            <span class="skill-icon" aria-hidden="true">03</span>
+            <h3 data-i18n="backendTitle">Backend & Data</h3>
+            <p data-i18n="backendDesc">Application logic, database-backed features, authentication concepts, and data-oriented problem solving.</p>
+            <div class="skill-tags"><span>C#</span><span>ASP.NET</span><span>MySQL</span><span>Database Design</span></div>
+          </article>
+          <article class="skill-card reveal" data-delay="160">
+            <span class="skill-icon" aria-hidden="true">04</span>
+            <h3 data-i18n="toolsTitle">Tools & Problem Solving</h3>
+            <p data-i18n="toolsDesc">Version-controlled development, structured debugging, technical planning, and algorithmic thinking.</p>
+            <div class="skill-tags"><span>Git</span><span>GitHub</span><span>ICPC</span><span>Problem Solving</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad experience-section" id="experience">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-kicker" data-i18n="experienceKicker">Journey</p>
+            <h2 data-i18n="experienceTitle">Built through study, problem solving, and real project work.</h2>
+          </div>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-date">2026</div>
+            <div>
+              <h3 data-i18n="expClientTitle">Client & WordPress Project Work</h3>
+              <p data-i18n="expClientDesc">Worked across responsive frontend fixes, bilingual sites, WordPress application workflows, REST integrations, website redevelopment, and staging-based delivery.</p>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-date">2022—2026</div>
+            <div>
+              <h3 data-i18n="expEducationTitle">Computer Science — MET Academy</h3>
+              <p data-i18n="expEducationDesc">Coursework included data structures and algorithms, web application development, database management, and object-oriented programming.</p>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-date">2023</div>
+            <div>
+              <h3 data-i18n="expIcpTitle">ICPC — Honorable Mention</h3>
+              <p data-i18n="expIcpDesc">Programming competition experience that strengthened algorithmic thinking, data analysis, and code optimization skills.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad services-section" id="services">
+      <div class="container">
+        <div class="split-heading reveal">
+          <div>
+            <p class="section-kicker" data-i18n="servicesKicker">Services</p>
+            <h2 data-i18n="servicesTitle">What I can help build and improve.</h2>
+          </div>
+          <p class="section-intro single" data-i18n="servicesIntro">I work best on focused web projects where the interface, implementation, and practical business goal need to stay aligned.</p>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card reveal"><span>↗</span><h3 data-i18n="service1Title">Website Design & Development</h3><p data-i18n="service1Desc">Responsive websites built around clear structure, usability, and maintainable implementation.</p></article>
+          <article class="service-card reveal" data-delay="60"><span>↗</span><h3 data-i18n="service2Title">Frontend Development</h3><p data-i18n="service2Desc">HTML, CSS, and JavaScript interfaces with responsive behavior and bilingual support where needed.</p></article>
+          <article class="service-card reveal" data-delay="120"><span>↗</span><h3 data-i18n="service3Title">WordPress Solutions</h3><p data-i18n="service3Desc">Custom WordPress implementation, frontend fixes, API-connected workflows, and feature integration.</p></article>
+          <article class="service-card reveal" data-delay="180"><span>↗</span><h3 data-i18n="service4Title">Optimization & Maintenance</h3><p data-i18n="service4Desc">Practical improvements to existing sites covering UX, responsiveness, structure, and technical reliability.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad contact-section" id="contact">
+      <div class="container contact-shell reveal">
+        <div>
+          <p class="section-kicker" data-i18n="contactKicker">Contact</p>
+          <h2 data-i18n="contactTitle">Have a web project that needs a developer who sees both sides?</h2>
+          <p data-i18n="contactLead">Send me the goal, the current state, and what is not working. I can help turn that into a clearer technical plan and a cleaner web experience.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="contact-row" href="mailto:mohammedehab093@gmail.com"><span data-i18n="emailLabel">Email</span><strong>mohammedehab093@gmail.com</strong><i aria-hidden="true">↗</i></a>
+          <a class="contact-row" href="tel:+201063750693"><span data-i18n="phoneLabel">Phone</span><strong>+20 106 375 0693</strong><i aria-hidden="true">↗</i></a>
+          <a class="contact-row" href="https://github.com/Mohamed-Ehab093" target="_blank" rel="noreferrer"><span>GitHub</span><strong>Mohamed-Ehab093</strong><i aria-hidden="true">↗</i></a>
+          <a class="contact-row" href="https://linkedin.com/in/mohamed-ehab-015a8531b" target="_blank" rel="noreferrer"><span>LinkedIn</span><strong>mohamed-ehab-015a8531b</strong><i aria-hidden="true">↗</i></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Mohamed Ehab Saber. <span data-i18n="footerCopy">Built with HTML, CSS & JavaScript.</span></p>
+      <a href="#top" data-i18n="backTop">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
